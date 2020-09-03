@@ -1,0 +1,113 @@
+ <!-- google drive image-->
+ <header id="header">
+   <img src="https://drive.google.com/thumbnail?id=17IOLL5OtG2wakICCjWAPnGAWkLW0Of_M" id="header-img" width="240" height="80">
+
+   <nav id="nav-bar">
+     <ul>
+       <li class="nav-link"><a href="#bullets">Features&nbsp;&nbsp;&nbsp;</a></li>
+       <li class="nav-link"><a href="#video">How It Works&nbsp;&nbsp;&nbsp;</a></li>
+       <li class="nav-link"><a href="#flex-container">Pricing</a></li>
+     </ul>
+   </nav>
+
+ </header>
+ <br>
+
+ <div id="top">
+   <h1>Handcrafted, home-made masterpieces</h1>
+ </div>
+ <div class="email" align="center">
+
+   <form id="form" action="https://www.freecodecamp.com/email-submit" method=post onsubmit="return ValidateEmail()" target="_blank" required>
+
+     <input type="email" id="email" placeholder="Enter your email address"></input>
+     <br><br>
+     <input type="submit" id="submit" value="Get Started" onclick="ValidateEmail(document.form.email)">
+   </form>
+ </div>
+
+ <body>
+   <main>
+
+     <div id="bullets">
+       <table>
+         <tr>
+           <td><b>Premium Materials</b></td>
+         </tr>
+         <tr>
+           <td class="desc">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</td>
+         </tr>
+
+         <tr>
+           <td>&nbsp;</td>
+         </tr>
+
+         <tr>
+           <td><b>Fast Shipping</b></td>
+         </tr>
+         <tr>
+           <td class="desc">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied. </td>
+         </tr>
+         <tr>
+           <td>&nbsp;</td>
+         </tr>
+         <tr>
+           <td><b>Quality Assurance</b></td>
+         </tr>
+         <tr>
+           <td class="desc">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</td>
+         </tr>
+       </table>
+     </div>
+
+     <!-- youtube trombones video -->
+     <div class="video">
+       <iframe id="video" width="420" height="380" src="https://www.youtube.com/embed/baVwP7Vx394">
+       </iframe>
+     </div>
+
+     <section class="flex-container" id="flex-container">
+       <div class="item1">
+         <h1>Tenor Trombone</h1>
+         <p><b>$600</b></p>
+         <p>Lorem ipsum.</p>
+         <p>Lorem ipsum.</p>
+         <p>Lorem ipsum doler.</p>
+         <p>Lorem ipsum.</p><br>
+         <input type="button" id="button" value="Select">
+       </div>
+
+       <div class="item2">
+         <h1>Bass Trombone</h1>
+         <p><b>$900</b></p>
+         <p>Lorem ipsum.</p>
+         <p>Lorem ipsum.</p>
+         <p>Lorem ipsum doler.</p>
+         <p>Lorem ipsum.</p><br>
+         <input type="button" id="button" value="Select">
+       </div>
+
+       <div class="item3">
+         <h1>Valve Trombone</h1>
+         <p><b>$1200</b></p>
+         <p>Plays similar to a trumpet.</p>
+         <p>Great for jazz bands.</p>
+         <p>Lorem ipsum doler.</p>
+         <p>Lorem ipsum.</p><br>
+         <input type="button" id="button" value="Select">
+       </div>
+     </section>
+     <section>
+
+       <footer>
+         <div id="footer">
+           <p>
+             <a href="#top">Privacy</a>
+             <a href="#top">Terms</a>
+             <a href="#top">Contact</a>
+           </p>
+           <p>Copyright 2016, Original Trombones</p>
+         </div>
+       </footer>
+     </section>
+   </main>
